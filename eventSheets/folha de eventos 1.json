@@ -20,7 +20,7 @@
 			"actions": [
 				{
 					"id": "set-mirrored",
-					"objectClass": "robot",
+					"objectClass": "Robot",
 					"sid": 239437052637351,
 					"parameters": {
 						"state": "not-mirrored"
@@ -44,7 +44,7 @@
 			"actions": [
 				{
 					"id": "set-mirrored",
-					"objectClass": "robot",
+					"objectClass": "Robot",
 					"sid": 738037155920268,
 					"parameters": {
 						"state": "mirrored"
@@ -58,7 +58,7 @@
 			"conditions": [
 				{
 					"id": "is-moving",
-					"objectClass": "robot",
+					"objectClass": "Robot",
 					"sid": 963232781221781,
 					"behaviorType": "8Direções"
 				}
@@ -66,7 +66,7 @@
 			"actions": [
 				{
 					"id": "set-animation",
-					"objectClass": "robot",
+					"objectClass": "Robot",
 					"sid": 844763577288940,
 					"parameters": {
 						"animation": "\"Walk\"",
@@ -81,7 +81,7 @@
 			"conditions": [
 				{
 					"id": "compare-speed",
-					"objectClass": "robot",
+					"objectClass": "Robot",
 					"sid": 589055978447721,
 					"behaviorType": "8Direções",
 					"parameters": {
@@ -93,7 +93,7 @@
 			"actions": [
 				{
 					"id": "set-animation",
-					"objectClass": "robot",
+					"objectClass": "Robot",
 					"sid": 182275892871166,
 					"parameters": {
 						"animation": "\"Idle\"",
