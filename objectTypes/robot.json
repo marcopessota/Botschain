@@ -1,0 +1,216 @@
+{
+	"name": "robot",
+	"plugin-id": "Sprite",
+	"sid": 795257644621907,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direções",
+			"sid": 902080962977654
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1920,
+						"height": 3254,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5108024,
+						"collisionPoly": {
+							"points": [
+								0.1421875,
+								0.08389674247080517,
+								0.5,
+								0.027965580823601722,
+								0.8395833333333333,
+								0.09434542102028273,
+								0.7973958333333333,
+								0.5,
+								0.6880208333333333,
+								0.8159188690842041,
+								0.5,
+								0.8899815611555009,
+								0.24635416666666668,
+								0.8543331284572834,
+								0.08489583333333334,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Fire Point",
+								"x": -0.0005208333333333333,
+								"y": 0.5534726490473264
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 276823056364484,
+				"name": "Idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 1920,
+						"height": 3254,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2954805,
+						"collisionPoly": {
+							"points": [
+								0.1421875,
+								0.08389674247080517,
+								0.5,
+								0.027965580823601722,
+								0.8395833333333333,
+								0.09434542102028273,
+								0.7973958333333333,
+								0.5,
+								0.6880208333333333,
+								0.8159188690842041,
+								0.5,
+								0.8899815611555009,
+								0.24635416666666668,
+								0.8543331284572834,
+								0.08489583333333334,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Fire Point",
+								"x": 0.0015625,
+								"y": 0.5755992624462201
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 1920,
+						"height": 3254,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 814014,
+						"collisionPoly": {
+							"points": [
+								0.125,
+								0.07375537799631224,
+								0.5,
+								0.03011677934849416,
+								0.8276041666666667,
+								0.10141364474492932,
+								0.7666666666666667,
+								0.5,
+								0.7161458333333334,
+								0.8325138291333744,
+								0.5,
+								0.9720344191763983,
+								0.3,
+								0.822679778733866,
+								0.05416666666666667,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1920,
+						"height": 3254,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7052790,
+						"collisionPoly": {
+							"points": [
+								0.1421875,
+								0.08389674247080517,
+								0.5,
+								0.027965580823601722,
+								0.8395833333333333,
+								0.09434542102028273,
+								0.7973958333333333,
+								0.5,
+								0.6880208333333333,
+								0.8159188690842041,
+								0.5,
+								0.8899815611555009,
+								0.24635416666666668,
+								0.8543331284572834,
+								0.08489583333333334,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1920,
+						"height": 3254,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6347875,
+						"collisionPoly": {
+							"points": [
+								0.1421875,
+								0.08389674247080517,
+								0.5,
+								0.027965580823601722,
+								0.8395833333333333,
+								0.09434542102028273,
+								0.7973958333333333,
+								0.5,
+								0.6604166666666667,
+								0.7996312231100184,
+								0.5,
+								0.8899815611555009,
+								0.26875,
+								0.8411186232329441,
+								0.08489583333333334,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 177540646088635,
+				"name": "Walk",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 10
+			}
+		],
+		"subfolders": []
+	}
+}
