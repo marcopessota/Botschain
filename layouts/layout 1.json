@@ -36,7 +36,7 @@
 					}
 				},
 				{
-					"type": "robot",
+					"type": "Robot",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Idle",
@@ -67,47 +67,6 @@
 						"height": 286.897931843807,
 						"originX": 0.5,
 						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Bullet",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {
-						"Projétil": {
-							"properties": {
-								"speed": 1000,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 917.3835784772473,
-						"y": -261.4997481361541,
-						"width": 48.72453153859061,
-						"height": 26.413298411063494,
-						"originX": -0.6694045174537988,
-						"originY": 1.018939393939394,
 						"color": [
 							1,
 							1,
