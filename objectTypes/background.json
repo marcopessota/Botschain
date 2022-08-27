@@ -1,7 +1,7 @@
 {
-	"name": "Sprite2",
+	"name": "Background",
 	"plugin-id": "Sprite",
-	"sid": 739597166430554,
+	"sid": 854066679108927,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,31 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 150,
-						"height": 159,
+						"width": 1000,
+						"height": 600,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 841758,
+						"imageSpriteId": 8783916,
 						"collisionPoly": {
 							"points": [
-								0.14,
-								0.1320754716981132,
+								0,
+								0,
 								0.5,
-								0.15723270440251572,
-								0.6,
-								0.3710691823899371,
-								0.8866666666666667,
+								0,
+								0.999,
+								0,
+								0.999,
 								0.5,
-								0.86,
-								0.8679245283018868,
+								0.999,
+								0.9983333333333333,
 								0.5,
-								0.8301886792452831,
-								0.14666666666666667,
-								0.8553459119496856,
-								0.15333333333333332,
+								0.9983333333333333,
+								0,
+								0.9983333333333333,
+								0,
 								0.5
 							]
 						},
@@ -43,7 +43,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 449946532240413,
+				"sid": 478972937432242,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

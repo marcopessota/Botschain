@@ -162,8 +162,76 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "HealthBar",
+					"sid": 663182979254404,
+					"parameters": {
+						"width": "HealthBar.Width - (Enemy.Health/3)"
+					}
+				}
+			],
 			"sid": 395979305360173
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-width",
+					"objectClass": "HealthBar",
+					"sid": 315952626655096,
+					"parameters": {
+						"comparison": 3,
+						"width": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Enemy",
+					"sid": 241239154147556
+				},
+				{
+					"id": "destroy",
+					"objectClass": "HealthBar",
+					"sid": 558642031137118
+				}
+			],
+			"sid": 431234505579114
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Start",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 777499621274423
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 104755520098136,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "HealthBar.Width"
+							}
+						}
+					],
+					"sid": 524383050752692
+				}
+			],
+			"sid": 291439660932587
 		}
 	],
 	"sid": 174922133414611

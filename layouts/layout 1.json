@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite",
+					"type": "Background",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -91,7 +91,7 @@
 					"behaviors": {
 						"Projétil": {
 							"properties": {
-								"speed": 400,
+								"speed": 1000,
 								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": false,
@@ -128,7 +128,9 @@
 						"live-preview": false
 					},
 					"uid": 6,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Health": 0
+					},
 					"behaviors": {},
 					"sceneGraphData": {
 						"parent-uid": null,
@@ -171,8 +173,8 @@
 						}
 					},
 					"world": {
-						"x": 876,
-						"y": 763,
+						"x": 394,
+						"y": 693,
 						"width": -185.3694074022984,
 						"height": 309.8217333943846,
 						"originX": 0.5,
@@ -225,41 +227,12 @@
 						}
 					},
 					"world": {
-						"x": 946,
-						"y": 775,
+						"x": 292,
+						"y": 510,
 						"width": 193,
 						"height": 35,
-						"originX": 0.8868660598179454,
-						"originY": 6.090909090909091,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 9,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 301,
-						"y": 52,
-						"width": 150,
-						"height": 159,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.0039011703511053317,
+						"originY": 0.4462809917355372,
 						"color": [
 							1,
 							1,

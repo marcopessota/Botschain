@@ -50,14 +50,13 @@
 	"uniqueId": "m78rsurdes7",
 	"objectTypes": {
 		"items": [
-			"Sprite",
+			"Background",
 			"robot",
 			"Teclado",
 			"Bullet",
 			"Enemy",
 			"Mouse",
-			"HealthBar",
-			"Sprite2"
+			"HealthBar"
 		],
 		"subfolders": []
 	},
