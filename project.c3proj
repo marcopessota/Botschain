@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 30200,
-	"name": "Teste",
+	"name": "Botschain",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
@@ -59,7 +59,7 @@
 	"objectTypes": {
 		"items": [
 			"Background",
-			"robot",
+			"Robot",
 			"Teclado",
 			"Bullet",
 			"Enemy",
