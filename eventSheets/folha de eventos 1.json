@@ -243,14 +243,14 @@
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Sprite"
+						"object-clicked": "Target"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "set-animation",
-					"objectClass": "Sprite",
+					"objectClass": "Target",
 					"sid": 835812212134549,
 					"parameters": {
 						"animation": "\"on\"",
@@ -275,7 +275,7 @@
 			"actions": [
 				{
 					"id": "set-animation",
-					"objectClass": "Sprite",
+					"objectClass": "Target",
 					"sid": 172694371572218,
 					"parameters": {
 						"animation": "\"off\"",
@@ -290,7 +290,7 @@
 			"conditions": [
 				{
 					"id": "is-overlapping-another-object",
-					"objectClass": "Sprite",
+					"objectClass": "Target",
 					"sid": 646633735571967,
 					"parameters": {
 						"object": "ButtonOne"

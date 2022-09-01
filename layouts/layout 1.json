@@ -244,7 +244,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Target",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "off",

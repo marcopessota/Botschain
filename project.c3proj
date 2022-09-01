@@ -65,7 +65,7 @@
 			"Enemy",
 			"Mouse",
 			"HealthBar",
-			"Sprite",
+			"Target",
 			"ButtonOne"
 		],
 		"subfolders": []
