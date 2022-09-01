@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 30200,
+	"savedWithRelease": 30800,
 	"name": "Botschain",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r302",
+			"version": "r308",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Keyboard",
 			"name": "Teclado",
 			"author": "Scirra",
-			"version": "r302",
+			"version": "r308",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r302",
+			"version": "r308",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "EightDir",
 			"name": "8 Direções",
 			"author": "Scirra",
-			"version": "r302",
+			"version": "r308",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Bullet",
 			"name": "Projétil",
 			"author": "Scirra",
-			"version": "r302",
+			"version": "r308",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "DragnDrop",
 			"name": "Arrastar & Soltar",
 			"author": "Scirra",
-			"version": "r302",
+			"version": "r308",
 			"bundled": false
 		}
 	],
@@ -233,7 +233,8 @@
 		"loaderStyle": "splash",
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
-		"cordovaAndroidScheme": "https"
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": false
 	},
 	"viewportWidth": 1920,
 	"viewportHeight": 1080,

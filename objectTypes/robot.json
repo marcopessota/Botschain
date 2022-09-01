@@ -22,7 +22,7 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
-						"exportFormat": "png",
+						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"imageSpriteId": 5108024,
 						"collisionPoly": {
@@ -46,13 +46,6 @@
 							]
 						},
 						"useCollisionPoly": true,
-						"imagePoints": [
-							{
-								"name": "Fire Point",
-								"x": -0.0005208333333333333,
-								"y": 0.5534726490473264
-							}
-						],
 						"duration": 1
 					}
 				],
@@ -69,10 +62,10 @@
 					{
 						"width": 1920,
 						"height": 3254,
-						"originX": 1.3494791666666666,
-						"originY": 0.326060233558697,
+						"originX": 0.5,
+						"originY": 0.5079901659496004,
 						"originalSource": "",
-						"exportFormat": "png",
+						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"imageSpriteId": 2954805,
 						"collisionPoly": {
@@ -96,13 +89,6 @@
 							]
 						},
 						"useCollisionPoly": true,
-						"imagePoints": [
-							{
-								"name": "Fire Point",
-								"x": 0.0015625,
-								"y": 0.5755992624462201
-							}
-						],
 						"duration": 1
 					},
 					{
@@ -111,7 +97,7 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
-						"exportFormat": "png",
+						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"imageSpriteId": 814014,
 						"collisionPoly": {
@@ -143,7 +129,7 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
-						"exportFormat": "png",
+						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"imageSpriteId": 7052790,
 						"collisionPoly": {
@@ -175,7 +161,7 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
-						"exportFormat": "png",
+						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"imageSpriteId": 6347875,
 						"collisionPoly": {
