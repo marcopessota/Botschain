@@ -45,6 +45,14 @@
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Arrastar & Soltar",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
 		}
 	],
 	"uniqueId": "m78rsurdes7",
@@ -56,7 +64,9 @@
 			"Bullet",
 			"Enemy",
 			"Mouse",
-			"HealthBar"
+			"HealthBar",
+			"Target",
+			"ButtonOne"
 		],
 		"subfolders": []
 	},

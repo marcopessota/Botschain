@@ -1,0 +1,78 @@
+{
+	"name": "Target",
+	"plugin-id": "Sprite",
+	"sid": 274001198802471,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastarSoltar",
+			"sid": 523981965036890
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 227,
+						"height": 227,
+						"originX": 0.5286343612334802,
+						"originY": 0.44052863436123346,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5486626,
+						"collisionPoly": {
+							"points": [
+								0.1013215859030837,
+								0,
+								1,
+								0,
+								1,
+								0.9955947136563876,
+								0.10572687224669604,
+								0.9955947136563876
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 946973436505541,
+				"name": "off",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 230,
+						"height": 229,
+						"originX": 0.5260869565217391,
+						"originY": 0.43231441048034935,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8728943,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 347709792123412,
+				"name": "on",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

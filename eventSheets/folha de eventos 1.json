@@ -232,6 +232,105 @@
 				}
 			],
 			"sid": 291439660932587
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 339401373490108,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Target"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Target",
+					"sid": 835812212134549,
+					"parameters": {
+						"animation": "\"on\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 652390462918486
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-released",
+					"objectClass": "Mouse",
+					"sid": 198805460066509,
+					"parameters": {
+						"mouse-button": "left"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Target",
+					"sid": 172694371572218,
+					"parameters": {
+						"animation": "\"off\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 701201705992289
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Target",
+					"sid": 646633735571967,
+					"parameters": {
+						"object": "ButtonOne"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "ButtonOne",
+					"sid": 506406932180376,
+					"parameters": {
+						"animation": "\"on\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 254253522210050
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 780011487057528
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "ButtonOne",
+					"sid": 221220496864393,
+					"parameters": {
+						"animation": "\"off\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 844809772048681
 		}
 	],
 	"sid": 174922133414611
